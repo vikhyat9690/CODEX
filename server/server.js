@@ -133,6 +133,7 @@ dotenv.config();
 
 const app = express(); 
 const server = http.createServer(app);
+//new io server on them
 const io = new Server(server);
 
 const port = process.env.PORT || 3100;
